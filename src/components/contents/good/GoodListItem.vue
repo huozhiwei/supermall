@@ -2,7 +2,7 @@
   <div class="goods-item">
     <img :src="goodItem.image" alt="">
     <div class="goods-info">
-      <p >{{goodItem.name}}</p>
+      <p>{{goodItem.name}}</p>
       <span class="price">{{goodItem.currency_symbol + goodItem.price_rmb}}</span>
       <span class="collect">{{goodItem.id}}</span>
     </div>
@@ -28,7 +28,6 @@
   .goods-item {
     padding-bottom: 40px;
     position: relative;
-
     width: 48%;
   }
 
@@ -71,7 +70,7 @@
     top: -1px;
     width: 14px;
     height: 14px;
-    background: url("~assets/images/common/collect.svg") 0 0/14px 14px;
+    background: url("~assets/img/common/collect.svg") 0 0/14px 14px;
   }
 
 </style>
